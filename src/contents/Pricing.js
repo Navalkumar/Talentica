@@ -7,11 +7,11 @@ class Pricing extends Component {
         return (
             <section id="pricing">
             <h2>Pricing</h2>
-            <img id="line" src={Line}></img>
+            <img id="line" alt="...." src={Line}></img>
            <p className="mb-5 pb-2" id="sub-head">Check out our attractive pricing plan Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porta fringilla ullamcorper.</p>
            <div id="circle" className="d-flex flex-column align-items-center justify-content-center">
                <div className="price-parent d-flex align-items-start">
-                   <img id="rupee" src={Rupee}></img>
+                   <img id="rupee" alt="...." src={Rupee}></img>
                <p id="price" className="m-0">6000</p>
                </div>
                <p id="price-text" className="m-0">per month for single desk</p>

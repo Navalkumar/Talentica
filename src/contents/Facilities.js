@@ -24,77 +24,77 @@ class Facilities extends Component {
 
             <section id="facilities">
                 <h2>Facilities</h2>
-                <img id="line" src={Line}></img>
+                <img id="line" alt="...." src={Line}></img>
                 <p id="sub-head">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porta fringilla ullamcorper. Morbi felis orci, lacinia a velit et, sodales...</p>
                 <Container>
                     <Row id="row">
                         <Col className="d-flex align-itens-center justufy-content-center align-items-center">
-                            <img src={Access}></img>
+                            <img alt="...." src={Access}></img>
                             <p class="mb-0">24/7 Access</p>
                         </Col>
                         <Col className="d-flex align-itens-center justufy-content-center align-items-center">
-                            <img src={SpaciousCubicles}></img>
+                            <img alt="...." src={SpaciousCubicles}></img>
                             <p class="mb-0">Spacious Cubicles</p>
                         </Col>
                         <Col className="d-flex align-itens-center justufy-content-center align-items-center">
-                            <img src={PowerBackup}></img>
+                            <img alt="...." src={PowerBackup}></img>
                             <p class="mb-0">24/7 Power Backup</p>
                         </Col>
                         <Col className="d-flex align-itens-center justufy-content-center align-items-center">
-                            <img src={PrinterFacilities}></img>
+                            <img alt="...." src={PrinterFacilities}></img>
                             <p class="mb-0">Printer Facilities</p>
                         </Col>
                     </Row>
 
                     <Row id="row">
                         <Col className="d-flex align-itens-center justufy-content-center align-items-center">
-                            <img src={CCTVAccessCards}></img>
+                            <img alt="...." src={CCTVAccessCards}></img>
                             <p class="mb-0">CCTV & Access Cards</p>
                         </Col>
                         <Col className="d-flex align-itens-center justufy-content-center align-items-center">
-                            <img src={FridgeMicrowave}></img>
+                            <img alt="...." src={FridgeMicrowave}></img>
                             <p class="mb-0">Fridge & Microwave</p>
                         </Col>
                         <Col className="d-flex align-itens-center justufy-content-center align-items-center">
-                            <img src={TVSetTopBox}></img>
+                            <img alt="...." src={TVSetTopBox}></img>
                             <p class="mb-0">TV & Set Top Box</p>
                         </Col>
                         <Col className="d-flex align-itens-center justufy-content-center align-items-center">
-                            <img src={ReceptionArea}></img>
+                            <img alt="...." src={ReceptionArea}></img>
                             <p class="mb-0">Reception Area</p>
                         </Col>
                     </Row>
 
                     <Row id="row">
                         <Col className="d-flex align-itens-center justufy-content-center align-items-center">
-                            <img src={LargeCafeteria}></img>
+                            <img alt="...." src={LargeCafeteria}></img>
                             <p class="mb-0">24/7 Access</p>
                         </Col>
                         <Col className="d-flex align-itens-center justufy-content-center align-items-center">
-                            <img src={TVConferenceRooms}></img>
+                            <img alt="...." src={TVConferenceRooms}></img>
                             <p class="mb-0">TV Conference Rooms</p>
                         </Col>
                         <Col className="d-flex align-itens-center justufy-content-center align-items-center">
-                            <img src={PostalAddress}></img>
+                            <img alt="...." src={PostalAddress}></img>
                             <p class="mb-0">Postal Address</p>
                         </Col>
                         <Col className="d-flex align-itens-center justufy-content-center align-items-center">
-                            <img src={LargeOpenTerrace}></img>
+                            <img alt="...." src={LargeOpenTerrace}></img>
                             <p class="mb-0">Large Open Terrace</p>
                         </Col>
                     </Row>
 
                     <Row id="row">
                         <Col className="d-flex align-itens-center justufy-content-center align-items-center">
-                            <img src={VariousMeetingRooms}></img>
+                            <img alt="...." src={VariousMeetingRooms}></img>
                             <p class="mb-0">Various Meeting Rooms</p>
                         </Col>
                         <Col className="d-flex align-itens-center justufy-content-center align-items-center">
-                            <img src={HousekeepingFacilities}></img>
+                            <img alt="...." src={HousekeepingFacilities}></img>
                             <p class="mb-0">Housekeeping Facilities</p>
                         </Col>
                         <Col className="d-flex align-itens-center justufy-content-center align-items-center">
-                            <img src={ParkingSpaces}></img>
+                            <img alt="...." src={ParkingSpaces}></img>
                             <p class="mb-0">Parking Spaces</p>
                         </Col>
                         <Col className="d-flex align-itens-center justufy-content-center align-items-center">

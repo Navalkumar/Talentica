@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, Form, Button } from "react-bootstrap";
+import { Container, Row, Col, Form } from "react-bootstrap";
 import Line from "../img/line.png";
 
 class Contact extends Component {
@@ -31,10 +31,10 @@ class Contact extends Component {
         if (value.length <= 0) {
             return <div className="alert alert-danger m-0 p-1"><span className="text-capitalize">{field}</span> is required field.</div>;
         } else {
-            if (field == 'email') {
+            if (field === 'email') {
                 if (!this.isValidEmail(value))
                     return <div className="alert alert-danger m-0">Invalid Email.</div>;
-            } else if (field == 'mobile') {
+            } else if (field === 'mobile') {
                 if (!this.isValidMobile(value))
                     return <div className="alert alert-danger m-0">Invalid Mobile Number.</div>;
             } else {
@@ -71,7 +71,7 @@ class Contact extends Component {
                         <Row>
                             <Col md={6} lg={6} sm={12}>
                                 <h2>Say Hello</h2>
-                                <img id="line" className="mb-5" src={Line}></img>
+                                <img id="line" alt="...." className="mb-5" src={Line}></img>
                                 <p className="mb-0" id="name">BOOTSTRAPALLEY</p>
                                 <p className="mb-4" id="address">B-7/8, Anmol Pride, Baner <br></br> Pune 411045</p>
                                 <p className="mb-4" id="number">+91 20 4075 1111 <br></br>
@@ -80,7 +80,7 @@ class Contact extends Component {
                             </Col>
                             <Col md={6} lg={6} sm={12} id="writetous">
                                 <h2>Write to us</h2>
-                                <img id="line" className="mb-4" src={Line}></img>
+                                <img id="line" alt="...." className="mb-4" src={Line}></img>
                                 <h3>{this.state.error}</h3>
 
 
@@ -106,7 +106,7 @@ class Contact extends Component {
                         </Row>
                     </Container>
                 </section>
-                <iframe className="mt-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.503347825303!2d73.7891263153797!3d18.551332573073445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bedee7ae05ad%3A0x8c91a6c80076c0a!2sTalentica%20Software!5e0!3m2!1sen!2sin!4v1614677093460!5m2!1sen!2sin" width="100%" height="333" allowfullscreen="" loading="lazy"></iframe>
+                <iframe title="Tmap" className="mt-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.503347825303!2d73.7891263153797!3d18.551332573073445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bedee7ae05ad%3A0x8c91a6c80076c0a!2sTalentica%20Software!5e0!3m2!1sen!2sin!4v1614677093460!5m2!1sen!2sin" width="100%" height="333" allowfullscreen="" loading="lazy"></iframe>
 
             </>
         )

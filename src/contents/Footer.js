@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import Facebbok from "../img/Facebook.svg";
 import LinkedIn from "../img/LinkedIn.svg";
 import Twitter from "../img/Twitter.svg";
@@ -14,9 +14,9 @@ class Footer extends Component {
                         <Col md={3}>
                             <p id="follow">follow us on</p>
                             <div id="social" className="d-flex">
-                                <img id="socialIcons" src={LinkedIn}></img>
-                                <img id="socialIcons" src={Facebbok}></img>
-                                <img id="socialIcons" src={Twitter}></img>
+                                <img id="socialIcons" alt="...." src={LinkedIn}></img>
+                                <img id="socialIcons" alt="...." src={Facebbok}></img>
+                                <img id="socialIcons" alt="...." src={Twitter}></img>
                             </div>
                         </Col>
                         <Col md={3}>
@@ -25,7 +25,7 @@ class Footer extends Component {
                         </Col>
                         <Col className="text-right" md={6}>
                         <p id="powered">powered by</p> 
-                        <img src={TalenticaLogo}></img>
+                        <img alt="...." src={TalenticaLogo}></img>
                         </Col>
                     </Row>
             </section>
